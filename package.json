@@ -1,0 +1,15 @@
+{
+  "name": "nanotar-decompression-limit-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node repro.mjs",
+    "test": "node repro.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "nanotar": "0.3.0"
+  }
+}
